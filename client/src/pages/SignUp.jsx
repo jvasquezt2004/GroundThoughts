@@ -46,7 +46,7 @@ export default function SignUp() {
                 id="password"
               />
             </div>
-            <Button color="blue" type="submit" className="w-full">
+            <Button color="blue" type="submit" className="w-full rounded-lg">
               <IoEnterOutline className="mr-2 h-5 w-5" />
               Sign Up
             </Button>
