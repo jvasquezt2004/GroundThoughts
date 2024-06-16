@@ -21,6 +21,10 @@ const userSchema = new mongoose.Schema(
       default:
         "https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
     },
+    isWriter: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
