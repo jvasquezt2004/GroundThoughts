@@ -65,7 +65,7 @@ export default function DashPost() {
         );
       }
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   };
 
