@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Sidebar } from "flowbite-react";
 import { CgProfile } from "react-icons/cg";
 import { CiLogout } from "react-icons/ci";
-import { HiDocumentText } from "react-icons/hi";
+import { HiDocumentText, HiOutlineUser } from "react-icons/hi";
 import { Link, useLocation } from "react-router-dom";
 import { signoutSuccess } from "../redux/user/userSlice";
 import { useDispatch, useSelector } from "react-redux";
