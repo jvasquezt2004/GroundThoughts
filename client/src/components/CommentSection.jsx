@@ -72,7 +72,7 @@ export default function CommentSection({ postId }) {
       ) : (
         <div className="text-sm text-teal-400 my-5 flex gap-1">
           You muste be logged in to comment.
-          <Link className="text-blue-500 hover:underline" to={"/sing-in"}>
+          <Link className="text-blue-500 hover:underline" to={"/sign-in"}>
             Sign in
           </Link>
         </div>

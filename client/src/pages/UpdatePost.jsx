@@ -129,10 +129,11 @@ export default function UpdatePost() {
             }
             value={formData.category}
           >
-            <option value='uncategorized'>Select a category</option>
-            <option value='javascript'>JavaScript</option>
-            <option value='reactjs'>React.js</option>
-            <option value='nextjs'>Next.js</option>
+            <option value="uncategorized">Select a category</option>
+            <option value="technology">Technology</option>
+            <option value="lifestyle">Lifestyle</option>
+            <option value="health">Health</option>
+            <option value="politics">Politics</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
@@ -143,7 +144,7 @@ export default function UpdatePost() {
           />
           <Button
             type='button'
-            gradientDuoTone='purpleToBlue'
+            color='blue'
             size='sm'
             outline
             onClick={handleUpdloadImage}
